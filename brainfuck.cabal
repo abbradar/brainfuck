@@ -12,8 +12,13 @@ description:         This is an interpreter of the brainf*ck language,
                      written in the pure, lazy, functional language Haskell.
 
 build-type:          Simple
-Cabal-Version:       >= 1.2
+cabal-version:       >= 1.2
 tested-with:         GHC==7.10.1
+
+
+source-repository head
+  type:     git
+  location: https://github.com/abbradar/brainfuck
 
 executable              bf
    main-is:             Main.hs
