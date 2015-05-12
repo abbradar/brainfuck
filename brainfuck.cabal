@@ -3,7 +3,7 @@ version:             0.1.0.1
 license:             GPL
 license-file:        LICENSE
 author:              Jason Dagit <dagit@codersbase.com>
--- maintainer:          Cale
+maintainer:          Nikolay Amiantov <ab@fmap.me>
 
 stability:           Stable
 category:            Compilers/Interpreters
@@ -13,7 +13,7 @@ description:         This is an interpreter of the brainf*ck language,
 
 build-type:          Simple
 Cabal-Version:       >= 1.2
-tested-with:         GHC==6.8.2
+tested-with:         GHC==7.10.1
 
 executable              bf
    main-is:             Main.hs
