@@ -1,5 +1,5 @@
 name:                brainfuck
-version:             0.1.0.2
+version:             0.1.0.3
 license:             GPL
 license-file:        LICENSE
 author:              Jason Dagit <dagit@codersbase.com>
@@ -13,7 +13,7 @@ description:         This is an interpreter of the brainf*ck language,
 
 build-type:          Simple
 cabal-version:       >= 1.6
-tested-with:         GHC==7.10.1
+tested-with:         GHC==8.0.1
 
 source-repository head
   type:     git
