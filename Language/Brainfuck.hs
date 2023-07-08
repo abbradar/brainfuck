@@ -29,6 +29,7 @@ import Data.Word         ( Word8 )
 import Data.Char         ( ord, chr )
 import Data.List         ( groupBy )
 import Data.Maybe        ( catMaybes )
+import Control.Monad
 import Control.Monad.State
 
 {- | The complete BF language:
