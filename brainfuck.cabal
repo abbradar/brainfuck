@@ -21,7 +21,7 @@ source-repository head
 
 executable              bf
    main-is:             Main.hs
-   build-depends:       base>3 && <5, unix, array, mtl
+   build-depends:       base>3 && <5, unix, array, mtl, brainfuck
 
 library
    exposed-modules:     Language.Brainfuck, Language.Brainfuck.Examples
