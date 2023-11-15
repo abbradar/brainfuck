@@ -21,11 +21,11 @@ source-repository head
 
 executable              bf
    main-is:             Main.hs
+   default-language:    Haskell2010
    build-depends:       base>3 && <5, unix, array, mtl, brainfuck
 
 library
    exposed-modules:     Language.Brainfuck, Language.Brainfuck.Examples
-
+   default-language:    Haskell2010
    build-depends:       base>3 && <5, array, mtl
-
    ghc-options:         -Wall
